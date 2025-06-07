@@ -1,0 +1,20 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Audio recordings
+*.mp3
+*.wav
+
+# Editor files
+.vscode/
+*.swp
+
