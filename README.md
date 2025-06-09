@@ -88,6 +88,8 @@ Available commands:
 * **Microphone Recorder**: `record_mic <seconds>` (MP3/WAV conversion requires `ffmpeg`)
 * **Sound Player**: `play_sound <file.mp3>`
 
+<br>
+
 ## Legal Disclaimer
 
 > You expressly understand and agree that Darkforest (creators and contributors) shall not be liable for any damages or losses resulting from your use of this tool or third-party products that use it.
