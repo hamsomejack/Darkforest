@@ -88,7 +88,7 @@ Available commands:
 * **Microphone Recorder**: `record_mic <seconds>` (MP3/WAV conversion requires `ffmpeg`)
 * **Sound Player**: `play_sound <file.mp3>`
 
-<br>
+
 
 ## Legal Disclaimer
 
